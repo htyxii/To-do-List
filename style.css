@@ -1,0 +1,118 @@
+body {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Nothing You Could Do', cursive, 'Noto Sans TC';
+    background-image: url("https://images.unsplash.com/photo-1508873699372-7aeab60b44ab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  h1 {
+    color: #FFFAF0;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Gruppo', cursive;
+  }
+  
+  #my-todo, #completed {
+    background-color: #FFFAF0;
+    border-radius: 5px;
+    border: 1px #C0C0C0 solid;
+  }
+  
+  li {
+    padding: 10px 10px 0px;
+  }
+  
+  .m-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .checked {
+    color: #ccc;
+    text-decoration: line-through;
+    font-style: italic;
+  }
+  
+  .fa {
+    margin: 0 5px;
+    color: #bbb;
+  }
+  
+  li>label[for='todo'] {
+    width: 90%;
+  }
+  
+  li {
+    width: 500px;
+    border-bottom: 1px #808080 dotted;
+    transition: all .35s ease-in-out;
+    color: #696969;
+  }
+  
+  li:hover {
+    background-color: rgba(95, 158, 160, 0.2);
+    }
+  
+  #addBtn {
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  label, .delete {
+    cursor: pointer;
+    transition: all .35s ease-in-out;
+  }
+  
+  label:hover {
+    transform: scale(1.01);
+  }
+  
+  .form-inline {
+    justify-content: center;
+  }
+  
+  input[type=text] {
+    font-size: 11px;
+    font-family: 'Noto Sans TC', sans-serif;
+  }
+  
+  input[type=text]:hover {
+    background-color: #FFFAF0;
+  }
+  
+  #newTodo {
+    width: 170px;
+    transition: width .35s ease-in-out;
+  }
+  
+  #newTodo:focus {
+   width: 340px;
+  }
+  
+  .delete:hover {
+    color: #CD5C5C;
+    transition: all .35s ease-in-out;
+  }
+  
+  h2 {
+    width: 500px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 10px 0px 10px;
+  }
+  
+  h1, h2 {
+    cursor: context-menu;
+  }
+  
+  .error {
+    border: 1px solid #DC143C;
+  }
+  .errorPH::-webkit-input-placeholder {
+    color: #DC143C;
+    transition: all .35s ease-in-out;
+   }
+  
